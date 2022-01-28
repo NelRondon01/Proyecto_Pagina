@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+
+    <title>Full Website</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <script defer src="https://use.fontawesome.com/releases/v5.15.4/js/all.js" integrity="sha384-rOA1PnstxnOBLzCLMcre8ybwbTmemjzdNlILg8O7z1lUkLXozs4DHonlDtnE7fpc" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="css/main.css">
+    <script src="js/anime.min.js"></script>
+    <script src="js/jquery.min.js"></script>
+    <script src="js/main.js"></script>
+</head>
+<body>
+    <header class="nav">
+        <div class="logo"><img src="img/logo.png" alt=""></div>
+        <div class="menu">
+            <ul>
+                <li class="item"><a href="#">Inicio</a></li>
+                <li class="item"><a href="subpages/acercade.html">Acerca de</a></li>
+                <li class="item"><a href="subpages/cursos.html">Cursos</a></li>
+                <li class="item"><a href="subpages/blog.html">Blog</a></li>
+                <li class="item"><a href="subpages/contact.html">Contactanos</a></li>
+            </ul>
+        </div>
+        <div class="icons">
+            <i class="fas fa-times" id="close"></i>
+            <i class="fas fa-bars" id="menu"></i>
+        </div>
+    </header>
+    <section class="display-main">
+        <div class="wrap">
+            <h1>Titulo Principal</h1>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aliquid doloremque voluptatum consequatur blanditiis voluptate voluptatem quod commodi laudantium, aut, quibusdam illum velit perferendis quo laboriosam ut molestias explicabo deleniti? Saepe!</p>
+            <a href="#" class="btn-rect">Conocenos</a>
+        </div>
+    </section>
+    <section class="display-article p60" id="blog">
+        <h1 class="title-main">Blog</h1>
+        <p class="title-descript">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum, et! Quibusdam adipisci maiores perspiciatis animi.</p>
+        <a href="#" class="btn-rect">Ir a Blog</a>
+
+        <div class="tarjetas-wrap">
+            <div class="tarjeta">
+                <img src="img/3.jpg" alt="">
+                <div class="t"><h2>Titulo Sec.</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda reiciendis possimus nesciunt accusantium quidem est minus mollitia sit, nihil officia.</p></div>
+            </div>
+            <div class="tarjeta">
+                <img src="img/3.jpg" alt="">
+                <div class="t"><h2>Titulo Sec.</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda reiciendis possimus nesciunt accusantium quidem est minus mollitia sit, nihil officia.</p></div>
+            </div>
+            <div class="tarjeta">
+                <img src="img/3.jpg" alt="">
+                <div class="t"><h2>Titulo Sec.</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Assumenda reiciendis possimus nesciunt accusantium quidem est minus mollitia sit, nihil officia.</p></div>
+            </div>
+        </div>
+    </section>
+    <section class="display-article" id="conocenos">
+        <h1 class="title-main">Conocenos</h1>
+        <p class="title-descript">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum, et! Quibusdam adipisci maiores perspiciatis animi.</p>
+        <a href="#" class="btn-rect">Conocenos</a>
+
+        <h2 class="title-main">Conoce nuestras Sedes</h2>
+        <div class="tarjetas-wrap slide">
+            <div class="tarjeta">
+                <div class="adelante" id="sede1">
+                </div>
+                <div class="atras">
+                    <h6>NEW YORK</h6>
+                </div>
+            </div>
+            <div class="tarjeta">
+                <div class="adelante" id="sede2">
+                </div>
+                <div class="atras">
+                    <h6>LONDON</h6>
+                </div>
+            </div>
+            <div class="tarjeta">
+                <div class="adelante" id="sede3">
+                </div>
+                <div class="atras">
+                    <h6>PARIS</h6>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="title-main">Conoce nuestros Servicios</h2>
+        <div class="tarjetas-wrap slide">
+            <div class="tarjeta">
+                <div class="adelante" id="serv1">
+                </div>
+                <div class="atras">
+                    <h6>MARKETING DIGITAL</h6>
+                </div>
+            </div>
+            <div class="tarjeta">
+                <div class="adelante" id="serv2">
+                </div>
+                <div class="atras">
+                    <h6>DESARROLLO WEB</h6>
+                </div>
+            </div>
+            <div class="tarjeta">
+                <div class="adelante" id="serv3">
+                </div>
+                <div class="atras">
+                    <h6>CIBERSEGURIDAD</h6>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="display-article" id="course">
+        <h1 class="title-main">Cursos</h1>
+        <p class="title-descript">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Amet dolor exercitationem officiis, odit quaerat ducimus.</p>
+        <a href="#" class="btn-rect">Ir a Cursos</a>
+
+        <h2 class="title-main">Conoce los cursos Disponibles</h2>
+        <div class="tarjetas-wrap rect">
+            <div class="tarjeta">
+                <div class="adelante" id="curso1">
+                </div>
+                <div class="atras">
+                    <h6>MARKETING DIGITAL</h6>
+                </div>
+            </div>
+            <div class="tarjeta">
+                <div class="adelante" id="curso2">
+                </div>
+                <div class="atras">
+                    <h6>PROGRAMACION</h6>
+                </div>
+            </div>
+            <div class="tarjeta">
+                <div class="adelante" id="curso3">
+                </div>
+                <div class="atras">
+                    <h6>ROBOTICA</h6>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="display-article">
+        <h1 class="title-main">Opiniones sobre Nosotros</h1>
+        <ul class="slider">
+            <li class="opinion">
+                <img src="img/person.svg" class="icon" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quae voluptatem sint impedit! Vitae corrupti saepe earum nihil suscipit natus?</p>
+                <img src="img/e5.png" class="star" alt="">
+                <h2>Kenia Suarez</h2>
+            </li>
+            <li class="opinion">
+                <img src="img/person.svg" class="icon" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quae voluptatem sint impedit! Vitae corrupti saepe earum nihil suscipit natus?</p>
+                <img src="img/e5.png" class="star" alt="">
+                <h2>John Castle</h2>
+            </li>
+        </ul>
+    </section>    
+
+    <section class="display-article" id="conct">
+        <h1 class="title-main">Contactanos</h1>
+        <p class="title-descript">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorum, et! Quibusdam adipisci maiores perspiciatis animi.</p>
+        <a href="#" class="btn-rect">Contactanos</a>
+
+        <form action="#">
+            <h2>Formulario de Contacto</h2>
+            <label for="nombre">Nombre: </label>
+            <input type="text" id="nombre" placeholder="Ingresa tu nombre">
+            <label for="email">Correo Electronico: </label>
+            <input type="email" id="email" placeholder="Ingresa tu email">
+            <label for="telf">Telefono: </label>
+            <input type="text" id="telf" placeholder="Ingresa tu telefono">
+            <label for="msg">Mensaje: </label>
+            <textarea id="msg" cols="30" rows="10" placeholder="Dejanos tu mensaje"></textarea>
+            <input type="submit" value="Enviar">
+        </form>
+    </section>
+
+    <section class="display-tarjeta" id="conct-t">
+        <h1 class="title-main">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fuga, perferendis!</h1>
+        <a href="#" class="btn-rect">Contactanos</a>
+    </section>
+
+    <footer id="ayuda">
+        <h2>Acerca de Nosotros</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Qui ipsa voluptatum, culpa adipisci expedita alias vero deleniti modi dolorem aliquid.</p>
+        <p class="copyr">COPYTRIGHT © 2021-2021</p>
+        <div class="icons">
+            <i class="fab icon fa-facebook"></i>
+            <i class="fab icon fa-twitter"></i>
+            <i class="fab icon fa-instagram"></i>
+            <i class="fab icon fa-linkedin"></i>
+        </div>
+    </footer>
+</body>
+</html>
